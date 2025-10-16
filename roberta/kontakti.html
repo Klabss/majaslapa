@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="dark" lang="lv"><head>
+<meta charset="utf-8"/>
+<title>StarterPages</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1193d4",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101c22",
+          },
+          fontFamily: {
+            "display": ["Manrope"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+</head>
+<body class="bg-background-dark font-display">
+<div class="relative flex min-h-screen w-full flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-primary/20 px-10 py-3">
+<div class="flex items-center gap-4 text-slate-50">
+<div class="h-6 w-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold">StarterPages</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-slate-300 hover:text-primary dark:hover:text-primary transition-all duration-300 relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="pakalpojumi.html">Pakalpojumi</a>
+<a class="text-sm font-medium text-slate-300 hover:text-primary dark:hover:text-primary transition-all duration-300 relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="darbi.html">Portfolio</a>
+<a class="text-sm font-medium text-slate-300 hover:text-primary dark:hover:text-primary transition-all duration-300 relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="parMums.html">Par mums</a>
+<a class="text-sm font-medium text-primary dark:text-primary transition-all duration-300 relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-primary" href="kontakti.html">Kontakti</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden md:flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold shadow-md hover:bg-primary/90 transition-transform duration-300 ease-in-out hover:scale-105">
+<span>Saņemt piedāvājumu</span>
+</button>
+<button class="md:hidden p-2 rounded-lg text-slate-50 hover:bg-primary/20">
+<svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<line x1="4" x2="20" y1="12" y2="12"></line>
+<line x1="4" x2="20" y1="6" y2="6"></line>
+<line x1="4" x2="20" y1="18" y2="18"></line>
+</svg>
+</button>
+</div>
+</header>
+<main class="flex-1 w-full py-16 md:py-24 lg:py-32">
+<div class="container mx-auto px-4 md:px-6">
+<div class="grid lg:grid-cols-2 gap-12 xl:gap-20">
+<div class="flex flex-col space-y-8">
+<div class="space-y-4">
+<h1 class="text-4xl md:text-5xl font-bold tracking-tighter text-slate-50">Sazinieties ar mums</h1>
+<p class="text-slate-300 max-w-lg">
+                Mēs esam šeit, lai palīdzētu jūsu biznesam attīstīties. Sazinieties ar mums, ja jums ir kādi jautājumi vai vēlaties apspriest savu projektu.
+              </p>
+</div>
+<form class="space-y-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<input class="form-input w-full rounded-lg bg-background-dark border border-primary/30 h-12 px-4 text-base text-slate-50 placeholder:text-slate-400 focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Jūsu vārds" value=""/>
+<input class="form-input w-full rounded-lg bg-background-dark border border-primary/30 h-12 px-4 text-base text-slate-50 placeholder:text-slate-400 focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Jūsu e-pasts" type="email" value=""/>
+</div>
+<input class="form-input w-full rounded-lg bg-background-dark border border-primary/30 h-12 px-4 text-base text-slate-50 placeholder:text-slate-400 focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Jūsu tālrunis" type="tel" value=""/>
+<textarea class="form-textarea w-full rounded-lg bg-background-dark border border-primary/30 min-h-36 p-4 text-base text-slate-50 placeholder:text-slate-400 focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Jūsu ziņojums"></textarea>
+<button class="flex w-full sm:w-auto min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-8 bg-primary text-white text-base font-bold shadow-lg hover:bg-primary/90 transition-transform duration-300 ease-in-out hover:scale-105">
+<span>Sūtīt ziņu</span>
+</button>
+</form>
+</div>
+<div class="flex flex-col space-y-8">
+<div class="space-y-4">
+<h2 class="text-3xl font-bold tracking-tight text-slate-50">Kontaktinformācija</h2>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<div class="flex-shrink-0 flex items-center justify-center size-12 rounded-lg bg-primary/20 text-primary">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"></path>
+</svg>
+</div>
+<div>
+<p class="text-lg font-semibold text-slate-50">Tālrunis</p>
+<a class="text-slate-300 hover:text-primary transition-colors" href="tel:+37120123456">+371 20 123 456</a>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="flex-shrink-0 flex items-center justify-center size-12 rounded-lg bg-primary/20 text-primary">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"></path>
+</svg>
+</div>
+<div>
+<p class="text-lg font-semibold text-slate-50">E-pasts</p>
+<a class="text-slate-300 hover:text-primary transition-colors" href="mailto:atbalsts@starterpages.lv">atbalsts@starterpages.lv</a>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuATh7hXbymQpWct8dqtLcEXbuDJaY1t6qg44g3i7uzq-827kJyQjXe17IexOp7T5NYGLjuCwunOw9HYusUJSQ9hPpGQlHdEdtVTHHlD8nkVq-dyuBCBERWOuxxQe7LQ8IV-QxBV1muSXvcrqxUPTFos4UZzbidE05V6VTOyGAwvIF7WYucKpQwFiWv_XYWqd3O-j5NzI0dJnciw8vf-c7VF6Fzh4GwhfZjXk1Nv0pYQFuQp0O3F1JKlxO83Rhpqnn_0jmuoemjtXyY");'></div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="w-full border-t border-primary/20">
+<div class="container mx-auto px-4 md:px-6 py-8">
+<div class="flex flex-col md:flex-row items-center justify-between gap-6">
+<p class="text-sm text-slate-300">© 2023 StarterPages. Visas tiesības aizsargātas.</p>
+<div class="flex items-center gap-6">
+<a class="text-sm font-medium text-slate-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Privātuma politika</a>
+<a class="text-sm font-medium text-slate-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Lietošanas noteikumi</a>
+</div>
+<div class="flex gap-4">
+<a class="text-slate-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<svg class="h-6 w-6" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+</a>
+<a class="text-slate-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<svg class="h-6 w-6" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+</a>
+<a class="text-slate-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<svg class="h-6 w-6" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect height="12" width="4" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>

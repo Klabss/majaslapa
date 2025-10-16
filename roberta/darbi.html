@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html class="dark" lang="lv"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfolio - StarterPages.lv</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1193d4",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101c22",
+            },
+            fontFamily: {
+              display: ["Manrope"],
+            },
+            borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
+          },
+        },
+      };
+    </script>
+</head>
+<body class="bg-background-dark font-display text-gray-200">
+<div class="flex min-h-screen flex-col">
+<header class="sticky top-0 z-10 w-full border-b border-gray-700/50 bg-background-dark/80 backdrop-blur-sm">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="flex h-16 items-center justify-between">
+<div class="flex items-center gap-4">
+<a class="flex items-center gap-2 text-xl font-bold text-white transition-opacity hover:opacity-80" href="#">
+<svg class="h-8 w-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<span>StarterPages.lv</span>
+</a>
+</div>
+<nav class="hidden items-center gap-1 md:flex">
+<a class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition-colors hover:bg-gray-700/50 hover:text-primary" href="pakalpojumi.html">Pakalpojumi</a>
+<a class="rounded-md bg-primary/20 px-3 py-2 text-sm font-medium text-primary" href="darbi.html">Portfolio</a>
+<a class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition-colors hover:bg-gray-700/50 hover:text-primary" href="parMums.html">Par mums</a>
+<a class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition-colors hover:bg-gray-700/50 hover:text-primary" href="kontakti.html">Kontakti</a>
+</nav>
+<div class="flex items-center gap-4">
+<a class="inline-flex items-center justify-center rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 focus:ring-offset-background-dark" href="#">
+                Saņemt piedāvājumu
+              </a>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+<div class="text-center">
+<h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Mūsu darbi</h1>
+<p class="mx-auto mt-4 max-w-2xl text-lg text-gray-400">
+              Izpētiet mūsu nesen izstrādāto tīmekļa projektu izlasi, kas apliecina mūsu apņemšanos nodrošināt kvalitāti un inovācijas.
+            </p>
+</div>
+<div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+<div class="group overflow-hidden rounded-lg bg-gray-800/50 shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+<a class="block" href="#">
+<div class="relative">
+<div class="aspect-video w-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA2JgwHge-W0zV_bs6fXYqOzGzeTlJ_psmu4HLfAkx-VbR5-zYh8pb58bgCgwZeFdNA0VOa0BAw_mP_-h0l1Xr8BslLqAFnb6qv5kaVRWNyaGF-AXzcox_yYdis9bN-jw2E1bRk0aBqKcQliIFO5YvP4ufcdu1xRiarZBg8hD1soNYsmwh-XNlNOBcADV8T6pfEJ3I0Jsqd0XG8Xo_ptep2vC_F4Tkb_DOqHoE6XmTrGydJMyA-ns2uYx1Dp_pBuKfSYGGIpJK1tog");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+</div>
+<div class="p-6">
+<h3 class="text-lg font-semibold text-white">E-komercijas platforma amatniecības precēm</h3>
+<p class="mt-2 text-sm text-gray-400">Pilnībā funkcionāla e-komercijas vietne ar uzsvaru uz unikālu, rokām darinātu priekšmetu demonstrēšanu.</p>
+<div class="mt-4 flex items-center gap-3">
+<span class="text-sm font-semibold text-primary group-hover:underline">Skatīt projektu</span>
+<svg class="h-4 w-4 text-primary transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 12h14"></path>
+<path d="m12 5 7 7-7 7"></path>
+</svg>
+</div>
+</div>
+</a>
+</div>
+<div class="group overflow-hidden rounded-lg bg-gray-800/50 shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+<a class="block" href="#">
+<div class="relative">
+<div class="aspect-video w-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCrXvEsWXrnzl68ujjkk3Cz6jrdf3fY-DTr1xSMFnpQYC4BelovGCXRefWhbHMA9hKWDmmRXHxo6HDT35Mvdr2m-qrzaiQLlC8c6fFGu9wQSfYGJs9rHPp41qFXoI-2hKaijKpKQcV3i6GgYjis6ite6IoLOdswHeMovTC-4HUzJYfblgIRqQSjOJiqgJGZ4iZxSs9YaoESvWyUCso7aqjDV5IWWadClZ5x14_r7PTOHlVjoiPfW2cqJVN1l_TRcN1_4grKnnaeukM");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+</div>
+<div class="p-6">
+<h3 class="text-lg font-semibold text-white">Interaktīvs portfolio fotogrāfam</h3>
+<p class="mt-2 text-sm text-gray-400">Vizuāli satriecoša portfolio vietne ar interaktīvām galerijām un klientu atsauksmēm.</p>
+<div class="mt-4 flex items-center gap-3">
+<span class="text-sm font-semibold text-primary group-hover:underline">Skatīt projektu</span>
+<svg class="h-4 w-4 text-primary transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 12h14"></path>
+<path d="m12 5 7 7-7 7"></path>
+</svg>
+</div>
+</div>
+</a>
+</div>
+<div class="group overflow-hidden rounded-lg bg-gray-800/50 shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+<a class="block" href="#">
+<div class="relative">
+<div class="aspect-video w-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCAVA_tzaawDAhpNNWCKKAtHokFWko4zCNWxzNYUSlNRCaLxXZPqOVX8qR_U1FX_LWnA1QLLRuvgf3eZYbIECkLSMjJOdKqvox5LdvcHcVRH0-pa4M-g47JuKMNpI48OZYu-nY7SDNtHY9aab2jJCBmF8Lpj-eeymdOalpfdA5a1XHHkDb5RHKLby3CZdcMpIr7s106nMn9Pl3Kh5FNKaTSutUYJ-qr5zW78kdxfp1rtAuYrXFpbIIKUQ8xDSCrsnK_aJHlTVeLR2s");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+</div>
+<div class="p-6">
+<h3 class="text-lg font-semibold text-white">Pielāgota vietne vietējai kafejnīcai</h3>
+<p class="mt-2 text-sm text-gray-400">Moderna, responsīva vietne kafejnīcai, kas piedāvā tiešsaistes pasūtīšanu un pasākumu sarakstus.</p>
+<div class="mt-4 flex items-center gap-3">
+<span class="text-sm font-semibold text-primary group-hover:underline">Skatīt projektu</span>
+<svg class="h-4 w-4 text-primary transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 12h14"></path>
+<path d="m12 5 7 7-7 7"></path>
+</svg>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="mt-16 text-center">
+<a class="inline-flex items-center justify-center rounded-lg border border-primary bg-primary/20 px-6 py-3 text-base font-medium text-primary shadow-sm transition-colors hover:border-primary/80 hover:bg-primary/30" href="#">
+              Skatīt visus projektus
+            </a>
+</div>
+</div>
+</main>
+</div>
+</body></html>

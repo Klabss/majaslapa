@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html class="dark" lang="lv"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>StarterPages.lv</title>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope:wght@400;500;700;800&amp;family=Noto+Sans:wght@400;500;700;900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1193d4",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101c22",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+</head>
+<body class="bg-background-dark font-display text-slate-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-slate-800 px-10 py-4">
+<div class="flex items-center gap-3 text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold">StarterPages.lv</h2>
+</div>
+<nav class="hidden md:flex items-center gap-2">
+<a class="text-sm font-medium hover:text-primary transition-colors text-slate-300 px-4 py-2 rounded-lg" href="homepage.html">Sākums</a>
+<a class="text-sm font-medium text-primary bg-primary/10 px-4 py-2 rounded-lg" href="pakalpojumi.html">Pakalpojumi</a>
+<a class="text-sm font-medium hover:text-primary transition-colors text-slate-300 px-4 py-2 rounded-lg" href="darbi.html">Portfolio</a>
+<a class="text-sm font-medium hover:text-primary transition-colors text-slate-300 px-4 py-2 rounded-lg" href="parMums.html">Par mums</a>
+<a class="text-sm font-medium hover:text-primary transition-colors text-slate-300 px-4 py-2 rounded-lg" href="kontakti.html">Kontakti</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="bg-primary text-white px-4 py-2 rounded-lg text-sm font-bold shadow-sm hover:bg-primary/90 transition-colors">
+                        Saņemt piedāvājumu
+                    </button>
+<button class="md:hidden p-2 rounded-lg bg-slate-800/50">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-1 px-4 py-12 sm:px-6 lg:px-8">
+<div class="max-w-5xl mx-auto">
+<div class="text-center mb-12">
+<h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">Mūsu pakalpojumi</h1>
+<p class="mt-4 text-lg text-slate-400 max-w-2xl mx-auto">StarterPages.lv piedāvā visaptverošu digitālo risinājumu komplektu, kas paredzēts jūsu zīmola popularizēšanai un tiešsaistes izaugsmes paātrināšanai.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-slate-900/50 p-8 rounded-xl shadow-lg border border-slate-800 flex flex-col items-start transition-all duration-300 hover:border-primary hover:shadow-primary/20">
+<div class="bg-primary/20 p-3 rounded-lg mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">code</span>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">Tīmekļa izstrāde</h3>
+<p class="text-slate-400 mb-4 flex-grow">Mēs veidojam pielāgotas, responsīvas vietnes, kas ir optimizētas meklētājprogrammām un lietotāju pieredzei. Mūsu komanda izmanto jaunākās tehnoloģijas, lai izveidotu vietnes, kas ir gan skaistas, gan funkcionālas.</p>
+<a class="inline-flex items-center gap-2 text-primary font-bold text-sm group" href="#">
+                                Uzzināt vairāk
+                                <span class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+<div class="bg-slate-900/50 p-8 rounded-xl shadow-lg border border-slate-800 flex flex-col items-start transition-all duration-300 hover:border-primary hover:shadow-primary/20">
+<div class="bg-primary/20 p-3 rounded-lg mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">groups</span>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">Sociālo mediju pārvaldība</h3>
+<p class="text-slate-400 mb-4 flex-grow">Mūsu sociālo mediju eksperti pārvaldīs jūsu kontus, veidos saistošu saturu un vadīs mērķtiecīgas reklāmas kampaņas, lai palielinātu jūsu zīmola atpazīstamību un sasniegtu ideālos klientus.</p>
+<a class="inline-flex items-center gap-2 text-primary font-bold text-sm group" href="#">
+                                Uzzināt vairāk
+                                <span class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+<div class="bg-slate-900/50 p-8 rounded-xl shadow-lg border border-slate-800 flex flex-col items-start transition-all duration-300 hover:border-primary hover:shadow-primary/20 md:col-span-2 lg:col-span-1">
+<div class="bg-primary/20 p-3 rounded-lg mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">smart_toy</span>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">Tērzēšanas boti</h3>
+<p class="text-slate-400 mb-4 flex-grow">Uzlabojiet klientu apkalpošanu un iesaisti ar mūsu pielāgotajiem tērzēšanas botu risinājumiem. Mēs izstrādājam botus, lai atbildētu uz BUJ, sniegtu atbalstu un ģenerētu potenciālos klientus ar nevainojamu lietotāja pieredzi.</p>
+<a class="inline-flex items-center gap-2 text-primary font-bold text-sm group" href="#">
+                                Uzzināt vairāk
+                                <span class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-slate-900/50 border-t border-slate-800">
+<div class="max-w-7xl mx-auto px-6 py-8">
+<div class="flex flex-col items-center justify-between md:flex-row gap-6">
+<div class="flex items-center gap-3 text-white">
+<div class="size-5 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold">StarterPages.lv</h2>
+</div>
+<nav class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+<a class="text-sm text-slate-400 hover:text-primary transition-colors" href="homepage.html">Sākums</a>
+<a class="text-sm text-slate-400 hover:text-primary transition-colors" href="pakalpojumi.html">Pakalpojumi</a>
+<a class="text-sm text-slate-400 hover:text-primary transition-colors" href="darbi.html">Portfolio</a>
+<a class="text-sm text-slate-400 hover:text-primary transition-colors" href="parMums.html">Par mums</a>
+<a class="text-sm text-slate-400 hover:text-primary transition-colors" href="kontakti.html">Kontakti</a>
+</nav>
+<p class="text-sm text-slate-400">© 2024 StarterPages.lv. Visas tiesības aizsargātas.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
